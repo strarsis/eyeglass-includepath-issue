@@ -7,5 +7,5 @@ $ cd eyeglass-includepath-issue
 $ npm install
 
 $ gulp sass # output to css/
-$ gulp sass-eyeglass # output to css-eyeglass/
+$ gulp eyeglass # output to css-eyeglass/
 ````
