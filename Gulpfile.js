@@ -13,6 +13,7 @@ var sassOptions = {
 
 
 gulp.task("eyeglass", function () {
+  sassOptions.includePaths = ['./scss'];
   gulp.src("./scss/**/*.scss")
     .pipe(sass(eyeglass(sassOptions)).on("error", sass.logError))
     .pipe(gulp.dest("./css-eyeglass"));
