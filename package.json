@@ -3,6 +3,10 @@
     "eyeglass": "^1.1.2",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
-    "node-sass": "^3.12.1"
+    "node-sass": "^3.12.1",
+    "sass-toolkit": "^2.10.0"
+  },
+  "devDependencies": {
+    "sass-include-paths": "^4.10.0"
   }
 }
